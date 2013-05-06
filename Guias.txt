@@ -1,0 +1,20 @@
+Guias:
+git hub :
+http://windows.github.com/
+git config --global user.name "payanoc"
+git config --global user.email "joan1408@gmail.com"
+ssh-keygem >generar key
+copiar la llave publica generada en github < id_rsa.pub>
+creas un repositorio en la pagina.
+en shell:
+ir a la carpeta donde indicamos nuestra carpeta para repositorios
+c:/users/joan/documents/GitHub/repositorio
+git init >arrancamos proyecto
+touch README2 >creamos archivos
+git add README2 >agregamos readme2
+git status >
+git commit -m "este el primer archivo desd la pc" >agregar titulo a la version dl repo creado
+git remote add git git@github.com:payanoc/github.git >conectar git a nuestro repositorio en la web
+git pull git master >traer todo el rep d la web a la pc
+git push git master >enviar lo d mi pc a la web
+
